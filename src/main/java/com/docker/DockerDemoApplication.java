@@ -11,7 +11,7 @@ public class DockerDemoApplication {
 
 	@GetMapping
 	public String getmessage(){
-		return "Hello World Ajay Das Docker demo";
+		return "Hello World Ajay Das Docker demo after push";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DockerDemoApplication.class, args);
